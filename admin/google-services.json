@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "240349186150",
+    "project_id": "studentnet-e1df9",
+    "storage_bucket": "studentnet-e1df9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240349186150:android:1b7471f27000b6a7d345a7",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAJJhT0xCxlvs0W6kH96ScC7JBRtGC7FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240349186150:android:50c84d3255ddaac6d345a7",
+        "android_client_info": {
+          "package_name": "com.example.studentnet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAJJhT0xCxlvs0W6kH96ScC7JBRtGC7FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

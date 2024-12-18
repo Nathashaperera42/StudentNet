@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d2"
+    tools:context=".MainActivity">
+
+    <!-- H1: Welcome -->
+    <TextView
+        android:id="@+id/textViewH1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Welcome"
+        android:textColor="#F3ECEC"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- H2: StudentNest -->
+    <TextView
+        android:id="@+id/textViewH2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="StudentNet"
+        android:textColor="#F3EAEA"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewH1" />
+
+    <!-- H3: admin panel -->
+    <TextView
+        android:id="@+id/textViewH3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="admin panel"
+        android:textColor="#F4ECEC"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewH2" />
+
+    <!-- Round Image -->
+
+    <!-- LinearLayout with three buttons and a black frame -->
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/black_border"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewH3"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/ubutton"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Upload"
+            android:textColor="#F6EEEE"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/upbutton"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Update"
+            android:textColor="#E8DFDF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/dbutton"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Delete"
+            android:textColor="#F3EEEE"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
