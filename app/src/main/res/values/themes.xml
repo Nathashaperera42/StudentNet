@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StudentNet" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/cotonablue</item>
+        <item name="colorPrimaryVariant">@color/cotonablue</item>
+        <item name="android:statusBarColor">@color/cotonablue</item>
+    </style>
+
+    <style name="Theme.StudentNet" parent="Base.Theme.StudentNet" />
+</resources>

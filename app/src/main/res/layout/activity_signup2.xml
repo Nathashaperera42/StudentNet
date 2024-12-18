@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d2"
+    tools:context=".SignupActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="@android:color/white"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="346dp" />
+
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header1"
+            android:gravity="center"
+            android:text="Signup"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="439dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="175dp"
+            android:padding="20dp">
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_email"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/blue_border"
+                android:padding="8dp"
+                android:hint="Email"
+                android:textColorHint="@color/white"
+                android:drawablePadding="8dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_password"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:padding="8dp"
+                android:hint="Password"
+                android:textColorHint="@color/white"
+                android:inputType="textPassword"
+                android:drawablePadding="8dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_confirm"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:padding="8dp"
+                android:hint="Confirm Password"
+                android:textColorHint="@color/white"
+                android:inputType="textPassword"
+                android:drawablePadding="8dp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:text="Sign Up"
+                android:id="@+id/signup_button"
+                android:textSize="18sp"
+                app:cornerRadius = "30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginRedirectText"
+                android:text="Already an user? Login"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                android:textColor="@color/light_blue_600"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
